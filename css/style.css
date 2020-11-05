@@ -15,9 +15,29 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   font-size: 1.125rem;
+  color: #f1f1f1;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
     url("https://images.unsplash.com/photo-1600138336992-d9fcd4280aa5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80")
       no-repeat center center/cover;
   height: 100vh;
   overflow: hidden;
 }
+
+/* Basic Styles */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+}
+
+/* Nav Section */
