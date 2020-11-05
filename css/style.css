@@ -108,3 +108,7 @@ a {
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
   padding: 2rem;
 }
+
+.main-footer .box-footer p {
+  font-size: 0.85rem;
+}
