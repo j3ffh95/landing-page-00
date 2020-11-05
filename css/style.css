@@ -146,3 +146,43 @@ a {
     display: block;
   }
 }
+
+/* Devices 550px and less width */
+@media screen and (max-width: 550px) {
+  .main-header .main-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    font-size: 0.5rem;
+  }
+
+  .main-section .text-content {
+    margin: 5rem 0;
+  }
+
+  .text-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+  }
+
+  .main-footer .flex {
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-footer .box-footer {
+    text-align: center;
+  }
+}
