@@ -124,3 +124,25 @@ a {
 .main-footer .box-footer p {
   font-size: 0.85rem;
 }
+
+/* Devices with 768px less */
+@media screen and (max-width: 768px) {
+  .main-header .flex {
+    display: block;
+    overflow: visible;
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+
+  .text-content h1 {
+    font-size: 3rem;
+  }
+
+  .text-content p {
+    font-size: 2rem;
+  }
+
+  .main-footer {
+    display: block;
+  }
+}
