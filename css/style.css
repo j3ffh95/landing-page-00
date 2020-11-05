@@ -97,6 +97,18 @@ a {
 }
 
 /* Main Section */
+.main-section .text-content {
+  margin-top: 5rem;
+}
+
+.text-content h1 {
+  font-size: 64px;
+}
+
+.text-content p {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
 
 /* Footer Section */
 .main-footer {
