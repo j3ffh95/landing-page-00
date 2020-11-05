@@ -49,8 +49,12 @@ a {
   transition: all 0.3s ease;
 }
 
+.text-primary {
+  color: var(--clr-primary);
+}
+
 /* Nav Section */
-.main-header .flex {
+.flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,4 +94,17 @@ a {
 .btn:hover {
   background: var(--clr-secondary);
   color: var(--clr-primary);
+}
+
+/* Main Section */
+
+/* Footer Section */
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0.7rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+  padding: 2rem;
 }
